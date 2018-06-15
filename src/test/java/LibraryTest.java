@@ -52,6 +52,12 @@ public class LibraryTest {
     	Assert.assertEquals(expectedResult, title.getText());
     }
     
+    @Test
+    public void testFail()
+    {
+    	Assert.fail();
+    }
+    
     @After
     public void closeBrowser()
     {
